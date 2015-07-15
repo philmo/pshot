@@ -3,7 +3,7 @@
 
 ## Overview
 
-pshot is small implementation of the mshot_class [automatic/mshots](https://github.com/Automattic/mshots) to capture web images and process on a local server. It uses phantomjs to capture images using its rasterise feature. The processing of images is queued to the server using interprocess messaging provided through php semaphores.[creating-a-message-queue-in-php](http://www.ebrueggeman.com/blog/creating-a-message-queue-in-php)
+pshot is small implementation of the mshot_class [automatic/mshots](https://github.com/Automattic/mshots) to capture web images and process server-side. It uses phantomjs to capture images using its render feature. The processing of images is queued to the server using interprocess messaging provided through php semaphores.[creating-a-message-queue-in-php](http://www.ebrueggeman.com/blog/creating-a-message-queue-in-php)
 
 
 ## Installation
