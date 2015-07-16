@@ -3,7 +3,8 @@
 
 ## Overview
 
-pshot is small implementation of the mshot_class [automatic/mshots](https://github.com/Automattic/mshots) to capture web images and process server-side. It uses phantomjs to capture images using its render feature. The processing of images is queued to the server using interprocess messaging provided through php semaphores.[creating-a-message-queue-in-php](http://www.ebrueggeman.com/blog/creating-a-message-queue-in-php)
+pshot is small implementation of the mshot_class [automatic/mshots](https://github.com/Automattic/mshots) to capture web images and process server-side. It uses phantomjs to capture images using its render feature. The processing of images is queued to the server using interprocess messaging provided through php semaphores.[creating-a-message-queue-in-php](http://www.ebrueggeman.com/blog/creating-a-message-queue-in-php).
+
 
 
 ## Installation
@@ -11,7 +12,7 @@ pshot is small implementation of the mshot_class [automatic/mshots](https://gith
 1. install phantomjs
 2. configure queue - qworker
 3. create pshot working directory on webserver    default to ../pshots/p1
-4. add pshot shortcode to wordpress
+4. add pshot shortcode to wordpress or call direct within html
 
 
 ## Details
